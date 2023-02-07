@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Y9cOXjSQ27e4ndQDrXbUVbqLUVrklcTQBNW+YMCxAG4a5xFADpToQNFTa2HQPQGKTbOO/SfgrLp3PF001GqnwQ==",
+  "dgSpecHash": "C4qcqzsyqrlfId5ci7KkP1EsFvk88F6Sgs+9+dW8N66fBiuAc6gtJPrlr97YiT8I4k+8V0Osa/kHpOMhvNDvgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Leila\\source\\repos\\conquiste-sua-vaga\\Projeto02\\src\\ControleFinanceiro.Business\\ControleFinanceiro.Business\\ControleFinanceiro.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Leila\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

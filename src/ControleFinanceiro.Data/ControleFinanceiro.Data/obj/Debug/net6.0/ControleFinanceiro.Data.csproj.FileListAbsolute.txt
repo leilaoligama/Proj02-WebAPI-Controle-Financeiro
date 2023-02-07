@@ -10,3 +10,6 @@ C:\Users\Leila\source\repos\conquiste-sua-vaga\Projeto02\src\ControleFinanceiro.
 C:\Users\Leila\source\repos\conquiste-sua-vaga\Projeto02\src\ControleFinanceiro.Data\ControleFinanceiro.Data\obj\Debug\net6.0\refint\ControleFinanceiro.Data.dll
 C:\Users\Leila\source\repos\conquiste-sua-vaga\Projeto02\src\ControleFinanceiro.Data\ControleFinanceiro.Data\obj\Debug\net6.0\ControleFinanceiro.Data.pdb
 C:\Users\Leila\source\repos\conquiste-sua-vaga\Projeto02\src\ControleFinanceiro.Data\ControleFinanceiro.Data\obj\Debug\net6.0\ref\ControleFinanceiro.Data.dll
+C:\Users\Leila\source\repos\conquiste-sua-vaga\Projeto02\src\ControleFinanceiro.Data\ControleFinanceiro.Data\bin\Debug\net6.0\ControleFinanceiro.Business.dll
+C:\Users\Leila\source\repos\conquiste-sua-vaga\Projeto02\src\ControleFinanceiro.Data\ControleFinanceiro.Data\bin\Debug\net6.0\ControleFinanceiro.Business.pdb
+C:\Users\Leila\source\repos\conquiste-sua-vaga\Projeto02\src\ControleFinanceiro.Data\ControleFinanceiro.Data\obj\Debug\net6.0\ControleFinanceiro.Data.csproj.CopyComplete

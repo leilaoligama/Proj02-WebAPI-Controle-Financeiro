@@ -9,9 +9,13 @@ using System.Threading.Tasks;
 
 namespace ControleFinanceiro.Data.Context
 {
-    public class Context : DbContext
+    public class MeuDbContext : DbContext
     {
-        public Context(DbContextOptions options) : base(options) {}
+        public MeuDbContext(DbContextOptions options) : base(options) { }
         public DbSet<Receita> Receitas { get; set; }
+
+       
     }
+
+
 }

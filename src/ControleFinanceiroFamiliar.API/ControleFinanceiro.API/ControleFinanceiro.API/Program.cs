@@ -1,9 +1,18 @@
+using ControleFinanceiro.Data.Context;
 using FluentValidation.AspNetCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<MeuDbContext>(options =>
+    {
+        options.UseSqlServer(connectionString);
+    }
+);
 
 builder.Services.AddControllers();
 

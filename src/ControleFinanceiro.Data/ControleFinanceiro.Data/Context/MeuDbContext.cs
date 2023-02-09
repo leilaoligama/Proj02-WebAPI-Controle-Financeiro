@@ -13,8 +13,6 @@ namespace ControleFinanceiro.Data.Context
     {
         public MeuDbContext(DbContextOptions options) : base(options) { }
         public DbSet<Receita> Receitas { get; set; }
-
-       
     }
 
 

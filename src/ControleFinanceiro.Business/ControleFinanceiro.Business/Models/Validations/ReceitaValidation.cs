@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ControleFinanceiro.Business.Models.Validations
 {
+
     public class ReceitaValidation : AbstractValidator<Receita>
     {
         public ReceitaValidation()
@@ -20,7 +21,6 @@ namespace ControleFinanceiro.Business.Models.Validations
 
             RuleFor(c => c.Data)
             .NotEmpty().WithMessage("O campo {PropertyName} precisa ser fornecido");
-
         }
     }
 }

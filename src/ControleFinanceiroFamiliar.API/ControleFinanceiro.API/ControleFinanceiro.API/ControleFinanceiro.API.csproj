@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ControleFinanceiro.Business\ControleFinanceiro.Business\ControleFinanceiro.Business.csproj" />
+    <ProjectReference Include="..\..\..\ControleFinanceiro.Data\ControleFinanceiro.Data\ControleFinanceiro.Data.csproj" />
   </ItemGroup>
 
 </Project>

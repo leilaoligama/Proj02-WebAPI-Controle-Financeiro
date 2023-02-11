@@ -1,4 +1,5 @@
 ﻿using ControleFinanceiro.Business.Interfaces;
+using ControleFinanceiro.Business.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ControleFinanceiro.Business.Services
 {
-    public class ReceitaService
+    public class ReceitaService : IReceitaService
     {
         private readonly IReceitaService _receitaService;
 
@@ -16,5 +17,24 @@ namespace ControleFinanceiro.Business.Services
             _receitaService = receitaService;
         }
 
+        public Task Adicionar(Receita receita)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task Atualizar(Receita receita)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<Receita>> Detalhar(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task Remover(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

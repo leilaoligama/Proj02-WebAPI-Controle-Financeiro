@@ -9,8 +9,9 @@ namespace ControleFinanceiro.Business.Interfaces
 {
     public interface IReceitaService
     {
-        Task Adicionar(Receita receita) { return Task.CompletedTask; }
-        Task Atualizar(Receita receita) { return Task.CompletedTask; }
-        Task Remover(int id) { return Task.CompletedTask; }
+        Task Adicionar(Receita receita);
+        Task Atualizar(Receita receita);
+        Task Remover(int id);
+        Task<IEnumerable<Receita>> Detalhar(int id);
     }
 }

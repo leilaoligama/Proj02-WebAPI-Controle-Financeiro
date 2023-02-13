@@ -24,5 +24,13 @@ namespace ControleFinanceiro.API.Controllers
 
         }
 
+        [HttpPost]
+        public async Task<ActionResult<Receita>> Adicionar(Receita receita)
+        {
+            await _dbContext.Receitas.AddAsync(receita);
+            _dbContext.SaveChanges();
+            return Ok();
+        }
+
     }
 }
